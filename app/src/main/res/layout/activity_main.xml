@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estrellas"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="137dp"
+            android:layout_height="214dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/voyager_cast_with_kes" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="209dp"
+            android:layout_height="214dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/reina"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/FlotaEstelar"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/estrellas"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Flota estelar"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="209dp"
+        android:layout_height="255dp"
+        android:background="@drawable/estrellas"
+        android:onClick="entrar"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/descarga1" />
+
+</LinearLayout>
