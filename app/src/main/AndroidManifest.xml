@@ -16,9 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Nave" />
+        <activity android:name=".Menu" />
         <activity android:name=".Contacto" />
-        <activity android:name=".verContacto"></activity>
+        <activity android:name=".verContacto" />
+        <activity android:name=".listaTripulantes" />
+        <activity android:name=".formularioTripulantes" />
+        <activity android:name=".listaBitacoras" />
+        <activity android:name=".listaMisiones" />
+        <activity android:name=".formularioMisiones" />
+        <activity android:name=".formularioBitacoras"></activity>
     </application>
 
 </manifest>

@@ -3,4 +3,10 @@
     <string name="nombre">Nombre</string>
     <string name="texto">Texto</string>
     <string name="enviar">Enviar</string>
+    <string name="bitacoras">Bitacoras</string>
+    <string name="tripulantes">Tripulantes</string>
+    <string name="misiones">Misiones</string>
+    <string name="title_activity_lista_bitacoras">listaBitacoras</string>
+    <string name="insertar">Insertar</string>
+    <string name="buscar">Buscar</string>
 </resources>

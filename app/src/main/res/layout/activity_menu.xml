@@ -7,7 +7,7 @@
     android:background="@drawable/estrellas"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Nave">
+    tools:context=".Menu">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -17,33 +17,35 @@
         app:srcCompat="@drawable/voyager" />
 
     <Button
-        android:id="@+id/tripu"
-        android:layout_width="210dp"
-        android:layout_height="7dp"
+        android:id="@+id/tripulantes"
+        android:layout_width="285dp"
+        android:layout_height="19dp"
         android:layout_weight="1"
         android:background="@drawable/estrellas"
-        android:text="Tripu"
+        android:onClick="tripulantes"
+        android:text="@string/tripulantes"
         android:textColor="@android:color/white"
         android:textSize="40sp" />
 
     <Button
-        android:id="@+id/flota"
-        android:layout_width="210dp"
-        android:layout_height="7dp"
+        android:id="@+id/bitacoras"
+        android:layout_width="285dp"
+        android:layout_height="19dp"
         android:layout_weight="1"
         android:background="@drawable/estrellas"
-        android:text="Flota"
+        android:onClick="bitacoras"
+        android:text="@string/bitacoras"
         android:textColor="@android:color/white"
         android:textSize="40sp" />
 
     <Button
-        android:id="@+id/contacto"
-        android:layout_width="210dp"
-        android:layout_height="7dp"
+        android:id="@+id/misiones"
+        android:layout_width="285dp"
+        android:layout_height="19dp"
         android:layout_weight="1"
         android:background="@drawable/estrellas"
-        android:onClick="contacto"
-        android:text="Contacto"
+        android:onClick="misiones"
+        android:text="@string/misiones"
         android:textColor="@android:color/white"
         android:textSize="40sp" />
 </LinearLayout>

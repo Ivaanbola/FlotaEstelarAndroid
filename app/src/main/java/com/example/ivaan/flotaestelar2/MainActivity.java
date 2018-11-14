@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void entrar(View v){
         //Toast.makeText(this, "Has hecho click en el boton", Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(getApplicationContext(),Nave.class);
+        Intent intent = new Intent(getApplicationContext(),Menu.class);
         startActivity(intent);
 
     }
