@@ -24,7 +24,7 @@
         <activity android:name=".listaBitacoras" />
         <activity android:name=".listaMisiones" />
         <activity android:name=".formularioMisiones" />
-        <activity android:name=".formularioBitacoras"></activity>
+        <activity android:name=".formularioBitacoras" />
     </application>
 
 </manifest>
