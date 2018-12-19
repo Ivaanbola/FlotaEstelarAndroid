@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void entrar(View v){
         //Toast.makeText(this, "Has hecho click en el boton", Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(getApplicationContext(),Menu.class);
+        Intent intent = new Intent(getApplicationContext(),conectar.class);
         startActivity(intent);
 
     }

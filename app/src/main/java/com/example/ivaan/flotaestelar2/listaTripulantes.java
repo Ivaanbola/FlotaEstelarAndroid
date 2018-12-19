@@ -27,7 +27,7 @@ public class listaTripulantes extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-            case R.id.insertarTrip:
+            case R.id.insertar:
                 altaTripulantes();
                 return true;
             default:
